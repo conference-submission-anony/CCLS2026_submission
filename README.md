@@ -2,4 +2,8 @@ This repository contains ontologies and supporting material used in the experime
 
 All identifying information has been removed for double-blind review.
 
+Repository information:
+- anonym-core.rdf: core module;
+- anonym-literary.rdf: domain specific module; it imports the anonym-core;
+- anonym-case.rdf: case-study; it imports the anonym-core and anonym-literary modules.
 
