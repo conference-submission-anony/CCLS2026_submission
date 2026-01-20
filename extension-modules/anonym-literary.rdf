@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://www.loa.istc.cnr.it/literaryObs#"
-     xml:base="https://www.loa.istc.cnr.it/literaryObs"
-     xmlns:obs="https://www.loa.istc.cnr.it/obs#"
+<rdf:RDF xmlns="https://www.anonymized-ontology.com/literaryObs#"
+     xml:base="https://www.anonymized-ontology.com/literaryObs"
+     xmlns:obs="https://www.anonymized-ontology.com/obs#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -10,9 +10,8 @@
      xmlns:swrl="http://www.w3.org/2003/11/swrl#"
      xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#">
-    <owl:Ontology rdf:about="https://www.loa.istc.cnr.it/literaryObs">
-        <owl:imports rdf:resource="https://raw.githubusercontent.com/appliedontolab/MITE/refs/heads/main/core-ontology/core-module.rdf"/>
-        <rdfs:comment>Created by: Emilio M. Sanfilippo, Claudio Masolo, and Alessandro Mosca in the context of the research project &quot;MITE - Make it explicit: Documenting interpretations of literary fictions with conceptual formal models&quot; (2023-2025) funded by the European Union - Next Generation EU.</rdfs:comment>
+    <owl:Ontology rdf:about="https://www.anonymized-ontology.com/literaryObs">
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/conference-submission-anony/CCLS2026_submission/refs/heads/main/core-ontology/anonym-core.rdf"/>
     </owl:Ontology>
     
 
@@ -28,38 +27,38 @@
     
 
 
-    <!-- https://www.loa.istc.cnr.it/literaryObs#characterIn -->
+    <!-- https://www.anonymized-ontology.com/literaryObs#characterIn -->
 
-    <owl:ObjectProperty rdf:about="https://www.loa.istc.cnr.it/literaryObs#characterIn">
-        <rdfs:domain rdf:resource="https://www.loa.istc.cnr.it/literaryObs#Character"/>
-        <rdfs:range rdf:resource="https://www.loa.istc.cnr.it/obs#Text"/>
+    <owl:ObjectProperty rdf:about="https://www.anonymized-ontology.com/literaryObs#characterIn">
+        <rdfs:domain rdf:resource="https://www.anonymized-ontology.com/literaryObs#Character"/>
+        <rdfs:range rdf:resource="https://www.anonymized-ontology.com/obs#Text"/>
         <rdfs:label>character in</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://www.loa.istc.cnr.it/literaryObs#courtlyLadyCharacterIn -->
+    <!-- https://www.anonymized-ontology.com/literaryObs#courtlyLadyCharacterIn -->
 
-    <owl:ObjectProperty rdf:about="https://www.loa.istc.cnr.it/literaryObs#courtlyLadyCharacterIn">
-        <rdfs:subPropertyOf rdf:resource="https://www.loa.istc.cnr.it/literaryObs#characterIn"/>
+    <owl:ObjectProperty rdf:about="https://www.anonymized-ontology.com/literaryObs#courtlyLadyCharacterIn">
+        <rdfs:subPropertyOf rdf:resource="https://www.anonymized-ontology.com/literaryObs#characterIn"/>
         <rdfs:label>courtly lady character in</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://www.loa.istc.cnr.it/literaryObs#hybridPastourelleCourtlyCharacterIn -->
+    <!-- https://www.anonymized-ontology.com/literaryObs#hybridPastourelleCourtlyCharacterIn -->
 
-    <owl:ObjectProperty rdf:about="https://www.loa.istc.cnr.it/literaryObs#hybridPastourelleCourtlyCharacterIn">
-        <rdfs:subPropertyOf rdf:resource="https://www.loa.istc.cnr.it/literaryObs#characterIn"/>
+    <owl:ObjectProperty rdf:about="https://www.anonymized-ontology.com/literaryObs#hybridPastourelleCourtlyCharacterIn">
+        <rdfs:subPropertyOf rdf:resource="https://www.anonymized-ontology.com/literaryObs#characterIn"/>
         <rdfs:label>hybrid pastourelle courtly character in</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://www.loa.istc.cnr.it/literaryObs#pastourelleCharacterIn -->
+    <!-- https://www.anonymized-ontology.com/literaryObs#pastourelleCharacterIn -->
 
-    <owl:ObjectProperty rdf:about="https://www.loa.istc.cnr.it/literaryObs#pastourelleCharacterIn">
-        <rdfs:subPropertyOf rdf:resource="https://www.loa.istc.cnr.it/literaryObs#characterIn"/>
+    <owl:ObjectProperty rdf:about="https://www.anonymized-ontology.com/literaryObs#pastourelleCharacterIn">
+        <rdfs:subPropertyOf rdf:resource="https://www.anonymized-ontology.com/literaryObs#characterIn"/>
         <rdfs:label>pastourelle character in</rdfs:label>
     </owl:ObjectProperty>
     
@@ -76,24 +75,24 @@
     
 
 
-    <!-- https://www.loa.istc.cnr.it/literaryObs#ActiveAgencyObs -->
+    <!-- https://www.anonymized-ontology.com/literaryObs#ActiveAgencyObs -->
 
-    <owl:Class rdf:about="https://www.loa.istc.cnr.it/literaryObs#ActiveAgencyObs">
-        <rdfs:subClassOf rdf:resource="https://www.loa.istc.cnr.it/literaryObs#NarrativeAgencyObs"/>
+    <owl:Class rdf:about="https://www.anonymized-ontology.com/literaryObs#ActiveAgencyObs">
+        <rdfs:subClassOf rdf:resource="https://www.anonymized-ontology.com/literaryObs#NarrativeAgencyObs"/>
         <rdfs:label>Active Agency Obs</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.loa.istc.cnr.it/literaryObs#AffectiveObs -->
+    <!-- https://www.anonymized-ontology.com/literaryObs#AffectiveObs -->
 
-    <owl:Class rdf:about="https://www.loa.istc.cnr.it/literaryObs#AffectiveObs">
-        <rdfs:subClassOf rdf:resource="https://www.loa.istc.cnr.it/obs#BasicObs"/>
+    <owl:Class rdf:about="https://www.anonymized-ontology.com/literaryObs#AffectiveObs">
+        <rdfs:subClassOf rdf:resource="https://www.anonymized-ontology.com/obs#BasicObs"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://www.loa.istc.cnr.it/obs#hasArgument"/>
+                <owl:onProperty rdf:resource="https://www.anonymized-ontology.com/obs#hasArgument"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="https://www.loa.istc.cnr.it/literaryObs#Character"/>
+                <owl:onClass rdf:resource="https://www.anonymized-ontology.com/literaryObs#Character"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>Affective Obs</rdfs:label>
@@ -101,51 +100,51 @@
     
 
 
-    <!-- https://www.loa.istc.cnr.it/literaryObs#AuthoritativeAgencyObs -->
+    <!-- https://www.anonymized-ontology.com/literaryObs#AuthoritativeAgencyObs -->
 
-    <owl:Class rdf:about="https://www.loa.istc.cnr.it/literaryObs#AuthoritativeAgencyObs">
-        <rdfs:subClassOf rdf:resource="https://www.loa.istc.cnr.it/literaryObs#NarrativeAgencyObs"/>
+    <owl:Class rdf:about="https://www.anonymized-ontology.com/literaryObs#AuthoritativeAgencyObs">
+        <rdfs:subClassOf rdf:resource="https://www.anonymized-ontology.com/literaryObs#NarrativeAgencyObs"/>
         <rdfs:label>Authoritative Agency Obs</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.loa.istc.cnr.it/literaryObs#Character -->
+    <!-- https://www.anonymized-ontology.com/literaryObs#Character -->
 
-    <owl:Class rdf:about="https://www.loa.istc.cnr.it/literaryObs#Character">
+    <owl:Class rdf:about="https://www.anonymized-ontology.com/literaryObs#Character">
         <rdfs:label>Character</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.loa.istc.cnr.it/literaryObs#CompassionateObs -->
+    <!-- https://www.anonymized-ontology.com/literaryObs#CompassionateObs -->
 
-    <owl:Class rdf:about="https://www.loa.istc.cnr.it/literaryObs#CompassionateObs">
-        <rdfs:subClassOf rdf:resource="https://www.loa.istc.cnr.it/literaryObs#AffectiveObs"/>
-        <owl:disjointWith rdf:resource="https://www.loa.istc.cnr.it/literaryObs#EroticObs"/>
+    <owl:Class rdf:about="https://www.anonymized-ontology.com/literaryObs#CompassionateObs">
+        <rdfs:subClassOf rdf:resource="https://www.anonymized-ontology.com/literaryObs#AffectiveObs"/>
+        <owl:disjointWith rdf:resource="https://www.anonymized-ontology.com/literaryObs#EroticObs"/>
         <rdfs:label>Compassionate Obs</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.loa.istc.cnr.it/literaryObs#EroticObs -->
+    <!-- https://www.anonymized-ontology.com/literaryObs#EroticObs -->
 
-    <owl:Class rdf:about="https://www.loa.istc.cnr.it/literaryObs#EroticObs">
-        <rdfs:subClassOf rdf:resource="https://www.loa.istc.cnr.it/literaryObs#AffectiveObs"/>
+    <owl:Class rdf:about="https://www.anonymized-ontology.com/literaryObs#EroticObs">
+        <rdfs:subClassOf rdf:resource="https://www.anonymized-ontology.com/literaryObs#AffectiveObs"/>
         <rdfs:label>Erotic Obs</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.loa.istc.cnr.it/literaryObs#EthicalAgencyObs -->
+    <!-- https://www.anonymized-ontology.com/literaryObs#EthicalAgencyObs -->
 
-    <owl:Class rdf:about="https://www.loa.istc.cnr.it/literaryObs#EthicalAgencyObs">
-        <rdfs:subClassOf rdf:resource="https://www.loa.istc.cnr.it/obs#BasicObs"/>
+    <owl:Class rdf:about="https://www.anonymized-ontology.com/literaryObs#EthicalAgencyObs">
+        <rdfs:subClassOf rdf:resource="https://www.anonymized-ontology.com/obs#BasicObs"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://www.loa.istc.cnr.it/obs#hasArgument"/>
+                <owl:onProperty rdf:resource="https://www.anonymized-ontology.com/obs#hasArgument"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="https://www.loa.istc.cnr.it/literaryObs#Character"/>
+                <owl:onClass rdf:resource="https://www.anonymized-ontology.com/literaryObs#Character"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>Ethical Agency Obs</rdfs:label>
@@ -153,24 +152,24 @@
     
 
 
-    <!-- https://www.loa.istc.cnr.it/literaryObs#FemaleObs -->
+    <!-- https://www.anonymized-ontology.com/literaryObs#FemaleObs -->
 
-    <owl:Class rdf:about="https://www.loa.istc.cnr.it/literaryObs#FemaleObs">
-        <rdfs:subClassOf rdf:resource="https://www.loa.istc.cnr.it/literaryObs#GenderObs"/>
+    <owl:Class rdf:about="https://www.anonymized-ontology.com/literaryObs#FemaleObs">
+        <rdfs:subClassOf rdf:resource="https://www.anonymized-ontology.com/literaryObs#GenderObs"/>
         <rdfs:label>Female Obs</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.loa.istc.cnr.it/literaryObs#GenderObs -->
+    <!-- https://www.anonymized-ontology.com/literaryObs#GenderObs -->
 
-    <owl:Class rdf:about="https://www.loa.istc.cnr.it/literaryObs#GenderObs">
-        <rdfs:subClassOf rdf:resource="https://www.loa.istc.cnr.it/obs#BasicObs"/>
+    <owl:Class rdf:about="https://www.anonymized-ontology.com/literaryObs#GenderObs">
+        <rdfs:subClassOf rdf:resource="https://www.anonymized-ontology.com/obs#BasicObs"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://www.loa.istc.cnr.it/obs#hasArgument"/>
+                <owl:onProperty rdf:resource="https://www.anonymized-ontology.com/obs#hasArgument"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="https://www.loa.istc.cnr.it/literaryObs#Character"/>
+                <owl:onClass rdf:resource="https://www.anonymized-ontology.com/literaryObs#Character"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>Gender Obs</rdfs:label>
@@ -178,34 +177,34 @@
     
 
 
-    <!-- https://www.loa.istc.cnr.it/literaryObs#IdealObs -->
+    <!-- https://www.anonymized-ontology.com/literaryObs#IdealObs -->
 
-    <owl:Class rdf:about="https://www.loa.istc.cnr.it/literaryObs#IdealObs">
-        <rdfs:subClassOf rdf:resource="https://www.loa.istc.cnr.it/literaryObs#SymbolicObs"/>
-        <owl:disjointWith rdf:resource="https://www.loa.istc.cnr.it/literaryObs#TheologicalObs"/>
+    <owl:Class rdf:about="https://www.anonymized-ontology.com/literaryObs#IdealObs">
+        <rdfs:subClassOf rdf:resource="https://www.anonymized-ontology.com/literaryObs#SymbolicObs"/>
+        <owl:disjointWith rdf:resource="https://www.anonymized-ontology.com/literaryObs#TheologicalObs"/>
         <rdfs:label>Ideal Obs</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.loa.istc.cnr.it/literaryObs#MaleObs -->
+    <!-- https://www.anonymized-ontology.com/literaryObs#MaleObs -->
 
-    <owl:Class rdf:about="https://www.loa.istc.cnr.it/literaryObs#MaleObs">
-        <rdfs:subClassOf rdf:resource="https://www.loa.istc.cnr.it/literaryObs#GenderObs"/>
+    <owl:Class rdf:about="https://www.anonymized-ontology.com/literaryObs#MaleObs">
+        <rdfs:subClassOf rdf:resource="https://www.anonymized-ontology.com/literaryObs#GenderObs"/>
         <rdfs:label>Male Obs</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.loa.istc.cnr.it/literaryObs#NarrativeAgencyObs -->
+    <!-- https://www.anonymized-ontology.com/literaryObs#NarrativeAgencyObs -->
 
-    <owl:Class rdf:about="https://www.loa.istc.cnr.it/literaryObs#NarrativeAgencyObs">
-        <rdfs:subClassOf rdf:resource="https://www.loa.istc.cnr.it/obs#BasicObs"/>
+    <owl:Class rdf:about="https://www.anonymized-ontology.com/literaryObs#NarrativeAgencyObs">
+        <rdfs:subClassOf rdf:resource="https://www.anonymized-ontology.com/obs#BasicObs"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://www.loa.istc.cnr.it/obs#hasArgument"/>
+                <owl:onProperty rdf:resource="https://www.anonymized-ontology.com/obs#hasArgument"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="https://www.loa.istc.cnr.it/literaryObs#Character"/>
+                <owl:onClass rdf:resource="https://www.anonymized-ontology.com/literaryObs#Character"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>Narrative Agency Obs</rdfs:label>
@@ -213,25 +212,25 @@
     
 
 
-    <!-- https://www.loa.istc.cnr.it/literaryObs#SinfulObs -->
+    <!-- https://www.anonymized-ontology.com/literaryObs#SinfulObs -->
 
-    <owl:Class rdf:about="https://www.loa.istc.cnr.it/literaryObs#SinfulObs">
-        <rdfs:subClassOf rdf:resource="https://www.loa.istc.cnr.it/literaryObs#EthicalAgencyObs"/>
-        <owl:disjointWith rdf:resource="https://www.loa.istc.cnr.it/literaryObs#VirtuousObs"/>
+    <owl:Class rdf:about="https://www.anonymized-ontology.com/literaryObs#SinfulObs">
+        <rdfs:subClassOf rdf:resource="https://www.anonymized-ontology.com/literaryObs#EthicalAgencyObs"/>
+        <owl:disjointWith rdf:resource="https://www.anonymized-ontology.com/literaryObs#VirtuousObs"/>
         <rdfs:label>Sinful Obs</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.loa.istc.cnr.it/literaryObs#SymbolicObs -->
+    <!-- https://www.anonymized-ontology.com/literaryObs#SymbolicObs -->
 
-    <owl:Class rdf:about="https://www.loa.istc.cnr.it/literaryObs#SymbolicObs">
-        <rdfs:subClassOf rdf:resource="https://www.loa.istc.cnr.it/obs#BasicObs"/>
+    <owl:Class rdf:about="https://www.anonymized-ontology.com/literaryObs#SymbolicObs">
+        <rdfs:subClassOf rdf:resource="https://www.anonymized-ontology.com/obs#BasicObs"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://www.loa.istc.cnr.it/obs#hasArgument"/>
+                <owl:onProperty rdf:resource="https://www.anonymized-ontology.com/obs#hasArgument"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="https://www.loa.istc.cnr.it/literaryObs#Character"/>
+                <owl:onClass rdf:resource="https://www.anonymized-ontology.com/literaryObs#Character"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>Symbolic Obs</rdfs:label>
@@ -239,37 +238,37 @@
     
 
 
-    <!-- https://www.loa.istc.cnr.it/literaryObs#TalkativeAgencyObs -->
+    <!-- https://www.anonymized-ontology.com/literaryObs#TalkativeAgencyObs -->
 
-    <owl:Class rdf:about="https://www.loa.istc.cnr.it/literaryObs#TalkativeAgencyObs">
-        <rdfs:subClassOf rdf:resource="https://www.loa.istc.cnr.it/literaryObs#NarrativeAgencyObs"/>
+    <owl:Class rdf:about="https://www.anonymized-ontology.com/literaryObs#TalkativeAgencyObs">
+        <rdfs:subClassOf rdf:resource="https://www.anonymized-ontology.com/literaryObs#NarrativeAgencyObs"/>
         <rdfs:label>Talkative Agency Obs</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.loa.istc.cnr.it/literaryObs#TheologicalObs -->
+    <!-- https://www.anonymized-ontology.com/literaryObs#TheologicalObs -->
 
-    <owl:Class rdf:about="https://www.loa.istc.cnr.it/literaryObs#TheologicalObs">
-        <rdfs:subClassOf rdf:resource="https://www.loa.istc.cnr.it/literaryObs#SymbolicObs"/>
+    <owl:Class rdf:about="https://www.anonymized-ontology.com/literaryObs#TheologicalObs">
+        <rdfs:subClassOf rdf:resource="https://www.anonymized-ontology.com/literaryObs#SymbolicObs"/>
         <rdfs:label>Theological Obs</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.loa.istc.cnr.it/literaryObs#UngenderedObs -->
+    <!-- https://www.anonymized-ontology.com/literaryObs#UngenderedObs -->
 
-    <owl:Class rdf:about="https://www.loa.istc.cnr.it/literaryObs#UngenderedObs">
-        <rdfs:subClassOf rdf:resource="https://www.loa.istc.cnr.it/literaryObs#GenderObs"/>
+    <owl:Class rdf:about="https://www.anonymized-ontology.com/literaryObs#UngenderedObs">
+        <rdfs:subClassOf rdf:resource="https://www.anonymized-ontology.com/literaryObs#GenderObs"/>
         <rdfs:label>Ungendered Obs</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.loa.istc.cnr.it/literaryObs#VirtuousObs -->
+    <!-- https://www.anonymized-ontology.com/literaryObs#VirtuousObs -->
 
-    <owl:Class rdf:about="https://www.loa.istc.cnr.it/literaryObs#VirtuousObs">
-        <rdfs:subClassOf rdf:resource="https://www.loa.istc.cnr.it/literaryObs#EthicalAgencyObs"/>
+    <owl:Class rdf:about="https://www.anonymized-ontology.com/literaryObs#VirtuousObs">
+        <rdfs:subClassOf rdf:resource="https://www.anonymized-ontology.com/literaryObs#EthicalAgencyObs"/>
         <rdfs:label>Virtuous Obs</rdfs:label>
     </owl:Class>
     
@@ -286,35 +285,35 @@
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://www.loa.istc.cnr.it/literaryObs#ActiveAgencyObs"/>
-            <rdf:Description rdf:about="https://www.loa.istc.cnr.it/literaryObs#AuthoritativeAgencyObs"/>
-            <rdf:Description rdf:about="https://www.loa.istc.cnr.it/literaryObs#TalkativeAgencyObs"/>
+            <rdf:Description rdf:about="https://www.anonymized-ontology.com/literaryObs#ActiveAgencyObs"/>
+            <rdf:Description rdf:about="https://www.anonymized-ontology.com/literaryObs#AuthoritativeAgencyObs"/>
+            <rdf:Description rdf:about="https://www.anonymized-ontology.com/literaryObs#TalkativeAgencyObs"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://www.loa.istc.cnr.it/literaryObs#AffectiveObs"/>
-            <rdf:Description rdf:about="https://www.loa.istc.cnr.it/literaryObs#EthicalAgencyObs"/>
-            <rdf:Description rdf:about="https://www.loa.istc.cnr.it/literaryObs#GenderObs"/>
-            <rdf:Description rdf:about="https://www.loa.istc.cnr.it/literaryObs#NarrativeAgencyObs"/>
-            <rdf:Description rdf:about="https://www.loa.istc.cnr.it/literaryObs#SymbolicObs"/>
+            <rdf:Description rdf:about="https://www.anonymized-ontology.com/literaryObs#AffectiveObs"/>
+            <rdf:Description rdf:about="https://www.anonymized-ontology.com/literaryObs#EthicalAgencyObs"/>
+            <rdf:Description rdf:about="https://www.anonymized-ontology.com/literaryObs#GenderObs"/>
+            <rdf:Description rdf:about="https://www.anonymized-ontology.com/literaryObs#NarrativeAgencyObs"/>
+            <rdf:Description rdf:about="https://www.anonymized-ontology.com/literaryObs#SymbolicObs"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://www.loa.istc.cnr.it/literaryObs#Character"/>
-            <rdf:Description rdf:about="https://www.loa.istc.cnr.it/obs#Observation"/>
-            <rdf:Description rdf:about="https://www.loa.istc.cnr.it/obs#Text"/>
+            <rdf:Description rdf:about="https://www.anonymized-ontology.com/literaryObs#Character"/>
+            <rdf:Description rdf:about="https://www.anonymized-ontology.com/obs#Observation"/>
+            <rdf:Description rdf:about="https://www.anonymized-ontology.com/obs#Text"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://www.loa.istc.cnr.it/literaryObs#FemaleObs"/>
-            <rdf:Description rdf:about="https://www.loa.istc.cnr.it/literaryObs#MaleObs"/>
-            <rdf:Description rdf:about="https://www.loa.istc.cnr.it/literaryObs#UngenderedObs"/>
+            <rdf:Description rdf:about="https://www.anonymized-ontology.com/literaryObs#FemaleObs"/>
+            <rdf:Description rdf:about="https://www.anonymized-ontology.com/literaryObs#MaleObs"/>
+            <rdf:Description rdf:about="https://www.anonymized-ontology.com/literaryObs#UngenderedObs"/>
         </owl:members>
     </rdf:Description>
     
@@ -360,7 +359,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="https://www.loa.istc.cnr.it/obs#assertivelyClaims"/>
+                        <swrl:propertyPredicate rdf:resource="https://www.anonymized-ontology.com/obs#assertivelyClaims"/>
                         <swrl:argument1 rdf:resource="urn:swrl:var#t"/>
                         <swrl:argument2 rdf:resource="urn:swrl:var#o3"/>
                     </rdf:Description>
@@ -371,7 +370,7 @@
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="https://www.loa.istc.cnr.it/obs#assertivelyClaims"/>
+                                <swrl:propertyPredicate rdf:resource="https://www.anonymized-ontology.com/obs#assertivelyClaims"/>
                                 <swrl:argument1 rdf:resource="urn:swrl:var#t"/>
                                 <swrl:argument2 rdf:resource="urn:swrl:var#o2"/>
                             </rdf:Description>
@@ -382,7 +381,7 @@
                                 <rdf:first>
                                     <rdf:Description>
                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="https://www.loa.istc.cnr.it/obs#assertivelyClaims"/>
+                                        <swrl:propertyPredicate rdf:resource="https://www.anonymized-ontology.com/obs#assertivelyClaims"/>
                                         <swrl:argument1 rdf:resource="urn:swrl:var#t"/>
                                         <swrl:argument2 rdf:resource="urn:swrl:var#o1"/>
                                     </rdf:Description>
@@ -393,7 +392,7 @@
                                         <rdf:first>
                                             <rdf:Description>
                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                                <swrl:classPredicate rdf:resource="https://www.loa.istc.cnr.it/literaryObs#IdealObs"/>
+                                                <swrl:classPredicate rdf:resource="https://www.anonymized-ontology.com/literaryObs#IdealObs"/>
                                                 <swrl:argument1 rdf:resource="urn:swrl:var#o3"/>
                                             </rdf:Description>
                                         </rdf:first>
@@ -403,7 +402,7 @@
                                                 <rdf:first>
                                                     <rdf:Description>
                                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                        <swrl:propertyPredicate rdf:resource="https://www.loa.istc.cnr.it/obs#rejectivelyClaims"/>
+                                                        <swrl:propertyPredicate rdf:resource="https://www.anonymized-ontology.com/obs#rejectivelyClaims"/>
                                                         <swrl:argument1 rdf:resource="urn:swrl:var#t"/>
                                                         <swrl:argument2 rdf:resource="urn:swrl:var#o4"/>
                                                     </rdf:Description>
@@ -414,7 +413,7 @@
                                                         <rdf:first>
                                                             <rdf:Description>
                                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                <swrl:propertyPredicate rdf:resource="https://www.loa.istc.cnr.it/obs#rejectivelyClaims"/>
+                                                                <swrl:propertyPredicate rdf:resource="https://www.anonymized-ontology.com/obs#rejectivelyClaims"/>
                                                                 <swrl:argument1 rdf:resource="urn:swrl:var#t"/>
                                                                 <swrl:argument2 rdf:resource="urn:swrl:var#o5"/>
                                                             </rdf:Description>
@@ -425,7 +424,7 @@
                                                                 <rdf:first>
                                                                     <rdf:Description>
                                                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                                                        <swrl:classPredicate rdf:resource="https://www.loa.istc.cnr.it/literaryObs#EroticObs"/>
+                                                                        <swrl:classPredicate rdf:resource="https://www.anonymized-ontology.com/literaryObs#EroticObs"/>
                                                                         <swrl:argument1 rdf:resource="urn:swrl:var#o2"/>
                                                                     </rdf:Description>
                                                                 </rdf:first>
@@ -435,7 +434,7 @@
                                                                         <rdf:first>
                                                                             <rdf:Description>
                                                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                                <swrl:propertyPredicate rdf:resource="https://www.loa.istc.cnr.it/obs#hasArgument"/>
+                                                                                <swrl:propertyPredicate rdf:resource="https://www.anonymized-ontology.com/obs#hasArgument"/>
                                                                                 <swrl:argument1 rdf:resource="urn:swrl:var#o5"/>
                                                                                 <swrl:argument2 rdf:resource="urn:swrl:var#x"/>
                                                                             </rdf:Description>
@@ -446,7 +445,7 @@
                                                                                 <rdf:first>
                                                                                     <rdf:Description>
                                                                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                                        <swrl:propertyPredicate rdf:resource="https://www.loa.istc.cnr.it/obs#hasArgument"/>
+                                                                                        <swrl:propertyPredicate rdf:resource="https://www.anonymized-ontology.com/obs#hasArgument"/>
                                                                                         <swrl:argument1 rdf:resource="urn:swrl:var#o3"/>
                                                                                         <swrl:argument2 rdf:resource="urn:swrl:var#x"/>
                                                                                     </rdf:Description>
@@ -457,7 +456,7 @@
                                                                                         <rdf:first>
                                                                                             <rdf:Description>
                                                                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                                                <swrl:propertyPredicate rdf:resource="https://www.loa.istc.cnr.it/obs#hasArgument"/>
+                                                                                                <swrl:propertyPredicate rdf:resource="https://www.anonymized-ontology.com/obs#hasArgument"/>
                                                                                                 <swrl:argument1 rdf:resource="urn:swrl:var#o4"/>
                                                                                                 <swrl:argument2 rdf:resource="urn:swrl:var#x"/>
                                                                                             </rdf:Description>
@@ -468,7 +467,7 @@
                                                                                                 <rdf:first>
                                                                                                     <rdf:Description>
                                                                                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                                                        <swrl:propertyPredicate rdf:resource="https://www.loa.istc.cnr.it/obs#hasArgument"/>
+                                                                                                        <swrl:propertyPredicate rdf:resource="https://www.anonymized-ontology.com/obs#hasArgument"/>
                                                                                                         <swrl:argument1 rdf:resource="urn:swrl:var#o1"/>
                                                                                                         <swrl:argument2 rdf:resource="urn:swrl:var#x"/>
                                                                                                     </rdf:Description>
@@ -479,7 +478,7 @@
                                                                                                         <rdf:first>
                                                                                                             <rdf:Description>
                                                                                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                                                                <swrl:propertyPredicate rdf:resource="https://www.loa.istc.cnr.it/obs#hasArgument"/>
+                                                                                                                <swrl:propertyPredicate rdf:resource="https://www.anonymized-ontology.com/obs#hasArgument"/>
                                                                                                                 <swrl:argument1 rdf:resource="urn:swrl:var#o2"/>
                                                                                                                 <swrl:argument2 rdf:resource="urn:swrl:var#x"/>
                                                                                                             </rdf:Description>
@@ -490,7 +489,7 @@
                                                                                                                 <rdf:first>
                                                                                                                     <rdf:Description>
                                                                                                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                                                                                                        <swrl:classPredicate rdf:resource="https://www.loa.istc.cnr.it/literaryObs#FemaleObs"/>
+                                                                                                                        <swrl:classPredicate rdf:resource="https://www.anonymized-ontology.com/literaryObs#FemaleObs"/>
                                                                                                                         <swrl:argument1 rdf:resource="urn:swrl:var#o1"/>
                                                                                                                     </rdf:Description>
                                                                                                                 </rdf:first>
@@ -500,7 +499,7 @@
                                                                                                                         <rdf:first>
                                                                                                                             <rdf:Description>
                                                                                                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                                                                                                                <swrl:classPredicate rdf:resource="https://www.loa.istc.cnr.it/literaryObs#TalkativeAgencyObs"/>
+                                                                                                                                <swrl:classPredicate rdf:resource="https://www.anonymized-ontology.com/literaryObs#TalkativeAgencyObs"/>
                                                                                                                                 <swrl:argument1 rdf:resource="urn:swrl:var#o4"/>
                                                                                                                             </rdf:Description>
                                                                                                                         </rdf:first>
@@ -510,7 +509,7 @@
                                                                                                                                 <rdf:first>
                                                                                                                                     <rdf:Description>
                                                                                                                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                                                                                                                        <swrl:classPredicate rdf:resource="https://www.loa.istc.cnr.it/literaryObs#ActiveAgencyObs"/>
+                                                                                                                                        <swrl:classPredicate rdf:resource="https://www.anonymized-ontology.com/literaryObs#ActiveAgencyObs"/>
                                                                                                                                         <swrl:argument1 rdf:resource="urn:swrl:var#o5"/>
                                                                                                                                     </rdf:Description>
                                                                                                                                 </rdf:first>
@@ -551,7 +550,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="https://www.loa.istc.cnr.it/literaryObs#courtlyLadyCharacterIn"/>
+                        <swrl:propertyPredicate rdf:resource="https://www.anonymized-ontology.com/literaryObs#courtlyLadyCharacterIn"/>
                         <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
                         <swrl:argument2 rdf:resource="urn:swrl:var#t"/>
                     </rdf:Description>
@@ -568,7 +567,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="https://www.loa.istc.cnr.it/obs#assertivelyClaims"/>
+                        <swrl:propertyPredicate rdf:resource="https://www.anonymized-ontology.com/obs#assertivelyClaims"/>
                         <swrl:argument1 rdf:resource="urn:swrl:var#t"/>
                         <swrl:argument2 rdf:resource="urn:swrl:var#o4"/>
                     </rdf:Description>
@@ -579,7 +578,7 @@
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="https://www.loa.istc.cnr.it/obs#assertivelyClaims"/>
+                                <swrl:propertyPredicate rdf:resource="https://www.anonymized-ontology.com/obs#assertivelyClaims"/>
                                 <swrl:argument1 rdf:resource="urn:swrl:var#t"/>
                                 <swrl:argument2 rdf:resource="urn:swrl:var#o3"/>
                             </rdf:Description>
@@ -590,7 +589,7 @@
                                 <rdf:first>
                                     <rdf:Description>
                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                        <swrl:propertyPredicate rdf:resource="https://www.loa.istc.cnr.it/obs#assertivelyClaims"/>
+                                        <swrl:propertyPredicate rdf:resource="https://www.anonymized-ontology.com/obs#assertivelyClaims"/>
                                         <swrl:argument1 rdf:resource="urn:swrl:var#t"/>
                                         <swrl:argument2 rdf:resource="urn:swrl:var#o2"/>
                                     </rdf:Description>
@@ -601,7 +600,7 @@
                                         <rdf:first>
                                             <rdf:Description>
                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                <swrl:propertyPredicate rdf:resource="https://www.loa.istc.cnr.it/obs#assertivelyClaims"/>
+                                                <swrl:propertyPredicate rdf:resource="https://www.anonymized-ontology.com/obs#assertivelyClaims"/>
                                                 <swrl:argument1 rdf:resource="urn:swrl:var#t"/>
                                                 <swrl:argument2 rdf:resource="urn:swrl:var#o1"/>
                                             </rdf:Description>
@@ -612,7 +611,7 @@
                                                 <rdf:first>
                                                     <rdf:Description>
                                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                                        <swrl:classPredicate rdf:resource="https://www.loa.istc.cnr.it/literaryObs#AuthoritativeAgencyObs"/>
+                                                        <swrl:classPredicate rdf:resource="https://www.anonymized-ontology.com/literaryObs#AuthoritativeAgencyObs"/>
                                                         <swrl:argument1 rdf:resource="urn:swrl:var#o4"/>
                                                     </rdf:Description>
                                                 </rdf:first>
@@ -622,7 +621,7 @@
                                                         <rdf:first>
                                                             <rdf:Description>
                                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                                                <swrl:classPredicate rdf:resource="https://www.loa.istc.cnr.it/literaryObs#EroticObs"/>
+                                                                <swrl:classPredicate rdf:resource="https://www.anonymized-ontology.com/literaryObs#EroticObs"/>
                                                                 <swrl:argument1 rdf:resource="urn:swrl:var#o5"/>
                                                             </rdf:Description>
                                                         </rdf:first>
@@ -632,7 +631,7 @@
                                                                 <rdf:first>
                                                                     <rdf:Description>
                                                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                        <swrl:propertyPredicate rdf:resource="https://www.loa.istc.cnr.it/obs#hasArgument"/>
+                                                                        <swrl:propertyPredicate rdf:resource="https://www.anonymized-ontology.com/obs#hasArgument"/>
                                                                         <swrl:argument1 rdf:resource="urn:swrl:var#o5"/>
                                                                         <swrl:argument2 rdf:resource="urn:swrl:var#x"/>
                                                                     </rdf:Description>
@@ -643,7 +642,7 @@
                                                                         <rdf:first>
                                                                             <rdf:Description>
                                                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                                <swrl:propertyPredicate rdf:resource="https://www.loa.istc.cnr.it/obs#hasArgument"/>
+                                                                                <swrl:propertyPredicate rdf:resource="https://www.anonymized-ontology.com/obs#hasArgument"/>
                                                                                 <swrl:argument1 rdf:resource="urn:swrl:var#o3"/>
                                                                                 <swrl:argument2 rdf:resource="urn:swrl:var#x"/>
                                                                             </rdf:Description>
@@ -654,7 +653,7 @@
                                                                                 <rdf:first>
                                                                                     <rdf:Description>
                                                                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                                        <swrl:propertyPredicate rdf:resource="https://www.loa.istc.cnr.it/obs#hasArgument"/>
+                                                                                        <swrl:propertyPredicate rdf:resource="https://www.anonymized-ontology.com/obs#hasArgument"/>
                                                                                         <swrl:argument1 rdf:resource="urn:swrl:var#o4"/>
                                                                                         <swrl:argument2 rdf:resource="urn:swrl:var#x"/>
                                                                                     </rdf:Description>
@@ -665,7 +664,7 @@
                                                                                         <rdf:first>
                                                                                             <rdf:Description>
                                                                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                                                <swrl:propertyPredicate rdf:resource="https://www.loa.istc.cnr.it/obs#hasArgument"/>
+                                                                                                <swrl:propertyPredicate rdf:resource="https://www.anonymized-ontology.com/obs#hasArgument"/>
                                                                                                 <swrl:argument1 rdf:resource="urn:swrl:var#o1"/>
                                                                                                 <swrl:argument2 rdf:resource="urn:swrl:var#x"/>
                                                                                             </rdf:Description>
@@ -676,7 +675,7 @@
                                                                                                 <rdf:first>
                                                                                                     <rdf:Description>
                                                                                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                                                        <swrl:propertyPredicate rdf:resource="https://www.loa.istc.cnr.it/obs#hasArgument"/>
+                                                                                                        <swrl:propertyPredicate rdf:resource="https://www.anonymized-ontology.com/obs#hasArgument"/>
                                                                                                         <swrl:argument1 rdf:resource="urn:swrl:var#o2"/>
                                                                                                         <swrl:argument2 rdf:resource="urn:swrl:var#x"/>
                                                                                                     </rdf:Description>
@@ -687,7 +686,7 @@
                                                                                                         <rdf:first>
                                                                                                             <rdf:Description>
                                                                                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                                                                                                <swrl:classPredicate rdf:resource="https://www.loa.istc.cnr.it/literaryObs#FemaleObs"/>
+                                                                                                                <swrl:classPredicate rdf:resource="https://www.anonymized-ontology.com/literaryObs#FemaleObs"/>
                                                                                                                 <swrl:argument1 rdf:resource="urn:swrl:var#o2"/>
                                                                                                             </rdf:Description>
                                                                                                         </rdf:first>
@@ -697,7 +696,7 @@
                                                                                                                 <rdf:first>
                                                                                                                     <rdf:Description>
                                                                                                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                                                                                                        <swrl:classPredicate rdf:resource="https://www.loa.istc.cnr.it/literaryObs#TalkativeAgencyObs"/>
+                                                                                                                        <swrl:classPredicate rdf:resource="https://www.anonymized-ontology.com/literaryObs#TalkativeAgencyObs"/>
                                                                                                                         <swrl:argument1 rdf:resource="urn:swrl:var#o1"/>
                                                                                                                     </rdf:Description>
                                                                                                                 </rdf:first>
@@ -707,7 +706,7 @@
                                                                                                                         <rdf:first>
                                                                                                                             <rdf:Description>
                                                                                                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                                                                                <swrl:propertyPredicate rdf:resource="https://www.loa.istc.cnr.it/obs#assertivelyClaims"/>
+                                                                                                                                <swrl:propertyPredicate rdf:resource="https://www.anonymized-ontology.com/obs#assertivelyClaims"/>
                                                                                                                                 <swrl:argument1 rdf:resource="urn:swrl:var#t"/>
                                                                                                                                 <swrl:argument2 rdf:resource="urn:swrl:var#o5"/>
                                                                                                                             </rdf:Description>
@@ -718,7 +717,7 @@
                                                                                                                                 <rdf:first>
                                                                                                                                     <rdf:Description>
                                                                                                                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                                                                                                                        <swrl:classPredicate rdf:resource="https://www.loa.istc.cnr.it/literaryObs#ActiveAgencyObs"/>
+                                                                                                                                        <swrl:classPredicate rdf:resource="https://www.anonymized-ontology.com/literaryObs#ActiveAgencyObs"/>
                                                                                                                                         <swrl:argument1 rdf:resource="urn:swrl:var#3"/>
                                                                                                                                     </rdf:Description>
                                                                                                                                 </rdf:first>
@@ -759,7 +758,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="https://www.loa.istc.cnr.it/literaryObs#hybridPastourelleCourtlyCharacterIn"/>
+                        <swrl:propertyPredicate rdf:resource="https://www.anonymized-ontology.com/literaryObs#hybridPastourelleCourtlyCharacterIn"/>
                         <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
                         <swrl:argument2 rdf:resource="urn:swrl:var#t"/>
                     </rdf:Description>
@@ -776,7 +775,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="https://www.loa.istc.cnr.it/literaryObs#TalkativeAgencyObs"/>
+                        <swrl:classPredicate rdf:resource="https://www.anonymized-ontology.com/literaryObs#TalkativeAgencyObs"/>
                         <swrl:argument1 rdf:resource="urn:swrl:var#o1"/>
                     </rdf:Description>
                 </rdf:first>
@@ -786,7 +785,7 @@
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                <swrl:classPredicate rdf:resource="https://www.loa.istc.cnr.it/literaryObs#FemaleObs"/>
+                                <swrl:classPredicate rdf:resource="https://www.anonymized-ontology.com/literaryObs#FemaleObs"/>
                                 <swrl:argument1 rdf:resource="urn:swrl:var#o2"/>
                             </rdf:Description>
                         </rdf:first>
@@ -796,7 +795,7 @@
                                 <rdf:first>
                                     <rdf:Description>
                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                        <swrl:classPredicate rdf:resource="https://www.loa.istc.cnr.it/literaryObs#EroticObs"/>
+                                        <swrl:classPredicate rdf:resource="https://www.anonymized-ontology.com/literaryObs#EroticObs"/>
                                         <swrl:argument1 rdf:resource="urn:swrl:var#o3"/>
                                     </rdf:Description>
                                 </rdf:first>
@@ -806,7 +805,7 @@
                                         <rdf:first>
                                             <rdf:Description>
                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                                <swrl:classPredicate rdf:resource="https://www.loa.istc.cnr.it/literaryObs#AuthoritativeAgencyObs"/>
+                                                <swrl:classPredicate rdf:resource="https://www.anonymized-ontology.com/literaryObs#AuthoritativeAgencyObs"/>
                                                 <swrl:argument1 rdf:resource="urn:swrl:var#o4"/>
                                             </rdf:Description>
                                         </rdf:first>
@@ -816,7 +815,7 @@
                                                 <rdf:first>
                                                     <rdf:Description>
                                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                        <swrl:propertyPredicate rdf:resource="https://www.loa.istc.cnr.it/obs#hasArgument"/>
+                                                        <swrl:propertyPredicate rdf:resource="https://www.anonymized-ontology.com/obs#hasArgument"/>
                                                         <swrl:argument1 rdf:resource="urn:swrl:var#o1"/>
                                                         <swrl:argument2 rdf:resource="urn:swrl:var#x"/>
                                                     </rdf:Description>
@@ -827,7 +826,7 @@
                                                         <rdf:first>
                                                             <rdf:Description>
                                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                <swrl:propertyPredicate rdf:resource="https://www.loa.istc.cnr.it/obs#hasArgument"/>
+                                                                <swrl:propertyPredicate rdf:resource="https://www.anonymized-ontology.com/obs#hasArgument"/>
                                                                 <swrl:argument1 rdf:resource="urn:swrl:var#o2"/>
                                                                 <swrl:argument2 rdf:resource="urn:swrl:var#x"/>
                                                             </rdf:Description>
@@ -838,7 +837,7 @@
                                                                 <rdf:first>
                                                                     <rdf:Description>
                                                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                        <swrl:propertyPredicate rdf:resource="https://www.loa.istc.cnr.it/obs#hasArgument"/>
+                                                                        <swrl:propertyPredicate rdf:resource="https://www.anonymized-ontology.com/obs#hasArgument"/>
                                                                         <swrl:argument1 rdf:resource="urn:swrl:var#o3"/>
                                                                         <swrl:argument2 rdf:resource="urn:swrl:var#x"/>
                                                                     </rdf:Description>
@@ -849,7 +848,7 @@
                                                                         <rdf:first>
                                                                             <rdf:Description>
                                                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                                <swrl:propertyPredicate rdf:resource="https://www.loa.istc.cnr.it/obs#hasArgument"/>
+                                                                                <swrl:propertyPredicate rdf:resource="https://www.anonymized-ontology.com/obs#hasArgument"/>
                                                                                 <swrl:argument1 rdf:resource="urn:swrl:var#o4"/>
                                                                                 <swrl:argument2 rdf:resource="urn:swrl:var#x"/>
                                                                             </rdf:Description>
@@ -860,7 +859,7 @@
                                                                                 <rdf:first>
                                                                                     <rdf:Description>
                                                                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                                        <swrl:propertyPredicate rdf:resource="https://www.loa.istc.cnr.it/obs#assertivelyClaims"/>
+                                                                                        <swrl:propertyPredicate rdf:resource="https://www.anonymized-ontology.com/obs#assertivelyClaims"/>
                                                                                         <swrl:argument1 rdf:resource="urn:swrl:var#t"/>
                                                                                         <swrl:argument2 rdf:resource="urn:swrl:var#o3"/>
                                                                                     </rdf:Description>
@@ -871,7 +870,7 @@
                                                                                         <rdf:first>
                                                                                             <rdf:Description>
                                                                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                                                <swrl:propertyPredicate rdf:resource="https://www.loa.istc.cnr.it/obs#assertivelyClaims"/>
+                                                                                                <swrl:propertyPredicate rdf:resource="https://www.anonymized-ontology.com/obs#assertivelyClaims"/>
                                                                                                 <swrl:argument1 rdf:resource="urn:swrl:var#t"/>
                                                                                                 <swrl:argument2 rdf:resource="urn:swrl:var#o2"/>
                                                                                             </rdf:Description>
@@ -882,7 +881,7 @@
                                                                                                 <rdf:first>
                                                                                                     <rdf:Description>
                                                                                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                                                        <swrl:propertyPredicate rdf:resource="https://www.loa.istc.cnr.it/obs#assertivelyClaims"/>
+                                                                                                        <swrl:propertyPredicate rdf:resource="https://www.anonymized-ontology.com/obs#assertivelyClaims"/>
                                                                                                         <swrl:argument1 rdf:resource="urn:swrl:var#t"/>
                                                                                                         <swrl:argument2 rdf:resource="urn:swrl:var#o1"/>
                                                                                                     </rdf:Description>
@@ -893,7 +892,7 @@
                                                                                                         <rdf:first>
                                                                                                             <rdf:Description>
                                                                                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                                                                <swrl:propertyPredicate rdf:resource="https://www.loa.istc.cnr.it/obs#rejectivelyClaims"/>
+                                                                                                                <swrl:propertyPredicate rdf:resource="https://www.anonymized-ontology.com/obs#rejectivelyClaims"/>
                                                                                                                 <swrl:argument1 rdf:resource="urn:swrl:var#t"/>
                                                                                                                 <swrl:argument2 rdf:resource="urn:swrl:var#o4"/>
                                                                                                             </rdf:Description>
@@ -929,7 +928,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="https://www.loa.istc.cnr.it/literaryObs#pastourelleCharacterIn"/>
+                        <swrl:propertyPredicate rdf:resource="https://www.anonymized-ontology.com/literaryObs#pastourelleCharacterIn"/>
                         <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
                         <swrl:argument2 rdf:resource="urn:swrl:var#t"/>
                     </rdf:Description>
@@ -939,8 +938,4 @@
         </swrl:head>
     </rdf:Description>
 </rdf:RDF>
-
-
-
-<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
 
